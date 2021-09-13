@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Projeto Estudo POO em Javascript</title>
+</head>
+<body>
+     <header>Store</header>
+     <main class="container">
+        <div class="titulo">
+          <h2>Produtos</h2>
+          <span>Lista de produtos da loja.</span>
+        </div>
+        <div class="card">
+          <div class="lineInput">
+            <label for="produto">Produto</label>
+            <input type="text" name="produto" id="produto" placeholder="Nome Produto">
+          </div>
+          <div class="lineInput">
+            <label for="produto">Valor</label>
+            <input type="number" name="produto" id="valor"  placeholder="Valor Produto">
+          </div>
+          <button onclick="produto.salvar()" id="btn1" >Salvar</button>
+          <button onclick="produto.cancelar()">Cancelar</button>
+        </div>
+
+        <div class="conteudo">
+          <table border = 1>
+            <thead>
+              <th class="center">Id Produto</th>
+              <th>Nome Produto</th>
+              <th>Valor Produto</th>
+              <th class="center">Ações</th>
+            </thead>
+            <tbody id= "tbody">
+             
+
+            </tbody>
+          </table>
+        </div>
+     
+        
+     
+     </main>
+
+
+
+
+   
+
+  <script src="./js/script1.js"></script>
+</body>
+</html>
